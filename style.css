@@ -39,6 +39,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 button{
@@ -70,8 +71,16 @@ li{
     padding-left: 16px;
 }
 
-#about{
+/* About */
+
+#about,
+#discord,
+#contact,
+footer{
     padding: 48px 0;
+}
+
+#about{
     background-color: #f8ffdc;
 }
 
@@ -92,7 +101,7 @@ h2{
 }
 
 img{
-    width: 100%
+    width: 100%;
 }
 
 .section__description--wrapper{
@@ -107,4 +116,53 @@ img{
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+
+/* Discord */
+
+#discord {
+    background-color: #cefeff;
+}
+
+/* Contact */
+
+#contact{
+    background-color: #dce9ff;
+}
+
+form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea{
+    margin-bottom: 24px;
+    padding: 6px 12px ;
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links{
+    margin-bottom: 32px;
+}
+
+.footer__link{
+    padding: 0 16px;
 }
