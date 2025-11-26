@@ -1477,6 +1477,7 @@ Phones, Tablets, etc
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
+        margin: 0;
     }
     #steps .row,
     #testimonials .row {
