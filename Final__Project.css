@@ -402,16 +402,11 @@ Features
 Quality
 
 */
-
-#quality{
-   display: flex;
-   justify-content: space-around;
-}
 .quality__row{
    display: flex;
    justify-content: space-between;
    padding: 24px;
-   margin-left: 0;
+   margin-left: 64px;
 }
 
 .quality__description{
@@ -508,6 +503,7 @@ Values
    display: flex;
    justify-content: space-around;
    align-items: center;
+   margin-left: 64px;
 }
 
 .value__title{
