@@ -406,7 +406,7 @@ Quality
    display: flex;
    justify-content: space-between;
    padding: 24px;
-   margin-left: 64px;
+   margin-left: 96px;
 }
 
 .quality__description{
@@ -503,7 +503,7 @@ Values
    display: flex;
    justify-content: space-around;
    align-items: center;
-   margin-left: 64px;
+   margin-left: 96px;
 }
 
 .value__title{
