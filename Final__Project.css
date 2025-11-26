@@ -405,8 +405,6 @@ Quality
 .quality__row{
    display: flex;
    justify-content: space-between;
-   padding: 24px;
-   margin-left: 96px;
 }
 
 .quality__description{
@@ -503,7 +501,6 @@ Values
    display: flex;
    justify-content: space-around;
    align-items: center;
-   margin-left: 96px;
 }
 
 .value__title{
@@ -732,7 +729,7 @@ Testimonials
 .testimonials__rating{
    display: flex;
    align-items: center;
-   justify-content: start;
+   justify-content: center;
    margin-left: 0;
    margin-right: 12px;
    margin-bottom: 12px;
