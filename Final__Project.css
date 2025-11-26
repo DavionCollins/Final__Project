@@ -677,6 +677,7 @@ Testimonials
 .testimonials__title{
    padding-bottom: 16px;
    font-size: 24px;
+   text-align: center;
 }
 
 .testimonials__img{
